@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+        .cntainer{
+            margin: 0 auto;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            gap: 10px;
+
+        }
+        .header{
+            background-color: green;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        h3{
+            margin-top: 15px;
+
+        }
+        .contennt>.section{
+            margin-top: 10px;
+        }
+        .section{
+            background-color: #FF9800;
+            text-align: center;
+            padding: 30px;
+        }
+        .footer{
+            background-color: #FF9800;
+            text-align: center;
+            padding: 20px;
+        }
+        @media only screen and(min-width:860px) {
+            .header .footer .contennt{
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"><h2>My firts webpage</h2></div>
+        <div class="cotent">
+            <div class="section">
+                <h3>What</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit,
+                    maiores illum velit illo, magnam, et repudiandae dolor porro earum in fuga eos similique molestias
+                    expedita dicta possimus quibusdam. Voluptates, consequatur!</p>
+                    <h3>where</h3>
+                    <p>Used when referring to a partiuclar stage in a procese or acctvity</p>
+                    <h3>How</h3>
+                    <p>Used to ask about someonr physical or emtional state</p>
+            </div>
+        </div>
+       <div class="footer"><p>resize the browser window to see how the content respond to the reizng</p></div>
+    </div>
+</body>
+
+</html>
